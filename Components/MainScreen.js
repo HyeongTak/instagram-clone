@@ -22,6 +22,7 @@ const AppTabNavigator = createMaterialTopTabNavigator({
   tabBarPosition: "bottom",
   tabBarOptions: {
     style: {
+      height:70,
       ...Platform.select({
         ios:{
           backgroundColor:'white',
@@ -31,7 +32,7 @@ const AppTabNavigator = createMaterialTopTabNavigator({
         }
       })
     },
-    iconStyle: { height: 100 },
+    iconStyle: { height: 50 },
     activeTintColor: '#000',
     inactiveTintColor: '#d1cece',
     upperCaseLabel: false,
